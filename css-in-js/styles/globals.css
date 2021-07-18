@@ -1,0 +1,28 @@
+:root {
+  --color-primary: #4b5563;
+  --color-success: #4bb543;
+  --color-warning: #eed202;
+  --color-danger: #df4759;
+  --color-white: #fff;
+}
+
+html {
+  font-size: 62.5%; /* 16px */
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}

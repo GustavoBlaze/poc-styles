@@ -1,0 +1,69 @@
+.button {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: bold;
+
+  border: 0;
+  border-radius: 4px;
+
+  padding: 0.8rem 1.6rem;
+
+  border: 1px solid transparent;
+
+  /*
+  Melhor caminho para aplicar variações ao componente.
+
+  &--default {
+    
+  }
+
+  &--outline {
+
+  }
+
+  &--sm {
+
+  }
+
+  &--lg {
+
+  }
+  */
+}
+
+.buttonDefault {
+  color: var(--local-text-color);
+  background: var(--local-background-color);
+  border-color: var(--local-background-color);
+}
+
+.buttonOutline {
+  background: transparent;
+  border-color: var(--local-background-color);
+  color: var(--local-background-color);
+}
+
+.buttonSM {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+}
+
+.buttonLG {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+}
+
+.buttonSuccess {
+  background: var(--color-success);
+  color: var(--color-white);
+}
+
+.buttonWarning {
+  background: var(--color-warning);
+  color: var(--color-white);
+}
+
+.buttonDanger {
+  background: var(--color-danger);
+  color: var(--color-white);
+}
