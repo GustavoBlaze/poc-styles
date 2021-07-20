@@ -5,7 +5,7 @@ de um design system.
 
 Foram desenvolvidos 2 projetos, com os mesmos componentes e com as mesmas funcionalidades, porém, com tecnologias diferentes para comparar qual "melhor" nesse cenário.
 
-Para avaliar isto, tive como foco avaliar o custo **Complexidade x Escalabilidade x Performance**.
+Para avaliar isto, tive como foco olhar para o custo **Complexidade x Escalabilidade x Performance**.
 
 ## Comparação dos bundles gerados no build
 
@@ -91,8 +91,7 @@ A forma feita com o CSS-In-Js foi mais enxuta no desenvolvimento. O que resulta 
 
 A forma feita com o CSS-Modules foi um pouco hardcore. Como não se tem uma library pra fazer a ponte entre a mutabilidade e variações do componente com os estilos, isso teve que ser feito na mão com javascript puro. O que tornou o código menos legível, mais complexo e com isso é mais difícil de dar manutenção.
 
-Apesar de utilizar variáveis css com as duas tecnologias. O CSS-In-JS tem o Theme Provider (e mais todas as features do css nativo) que pode facilitar este trabalho, é mais custoso mas absorve complexidade. Já o CSS-Modules só se pode usar as features do css nativo (variáveis css e classes).
-
+Apesar de utilizar variáveis css com as duas tecnologias. O CSS-In-JS tem o Theme Provider, variáveis e concatenação do próprio js, e mais todas as features do css nativo que pode facilitar este trabalho. Já o CSS-Modules só se pode usar as features do css nativo (variáveis css e classes).
 
 #### CSS Redundante por parte do CSS-In-JS
 
