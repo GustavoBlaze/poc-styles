@@ -16,6 +16,16 @@ function Page() {
       </Card>
 
       <Card className={styles.verticalSack}>
+        <Button colorScheme="success">Button Success </Button>
+        <Button size="sm" colorScheme="warning">
+          Button Danger Small
+        </Button>
+        <Button size="lg" colorScheme="danger">
+          Button Warning Large
+        </Button>
+      </Card>
+      
+      <Card className={styles.verticalSack}>
         <Button variant="outline">Button Outline</Button>
         <Button variant="outline" size="sm">
           Button Outline Small

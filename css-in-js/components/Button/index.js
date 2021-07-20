@@ -9,7 +9,7 @@ const chooseButtonColorScheme = ({ colorScheme }) => {
   }
 
   return css`
-    --local-text-color: var(--color-${colorScheme});
+    --local-text-color: var(--color-white);
     --local-background-color: var(--color-${colorScheme});
   `;
 };
@@ -39,8 +39,8 @@ const chooseButtonSize = ({ size }) => {
         line-height: 1.6rem;
       `,
       lg: css`
-        font-size: 1.4rem;
-        line-height: 1.6rem;
+        font-size: 2.4rem;
+        line-height: 3.2rem;
       `,
     }[size] || ""
   );
